@@ -7,24 +7,35 @@
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <nav class="navbar navbar-expand-lg">
+    <!--OTRO NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <span class="navbar-brand">Aplicaciones Multimedia</span>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-            <ul class="navbar-nav mr-auto">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
             <li class="nav-item active">
                 <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="parciales.php" style="text-shadow: 2px 2px #4e181d;">Actividades</a>
+            <a class="nav-link" href="equipo.php">Equipo</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="equipo.php">Equipo</a>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="parciales.php" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Departamentales
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="depuno.php" style="color: #4e181d !important;">Primero</a>
+                <a class="dropdown-item" href="depdos.php" style="color: #4e181d !important; ">Segundo</a>
+                <a class="dropdown-item" href="deptres.php" style="color: #4e181d !important; text-shadow: 2px 2px #eee;">Tercero</a>
+                </div>
             </li>
             </ul>
-        </div>    
+        </div>
     </nav>
     <body style="background: #eee;">
-        <div class="container">
         <div style="width: 100%;margin: auto; margin-top: 15px; border: 1px solid #900F1A;padding: 30px; background: #fff;">
             <div style="margin-top: 14px; margin-bottom: 30px;">
                 <h4>Listado de tareas del Tercer Departamental</h4>
@@ -62,7 +73,6 @@
             <?php  } ?>
                 
             </table>
-            </div>
             </div>
             <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

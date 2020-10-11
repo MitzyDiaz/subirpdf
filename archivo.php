@@ -6,18 +6,21 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <nav class="navbar navbar-expand-lg">
-        <span class="navbar-brand">Administrador</span>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-            <ul class="navbar-nav mr-auto">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <span class="navbar-brand">Administrador Tareas</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
             <li class="nav-item active">
                 <a class="nav-link" href="index_admin.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="lista.php">Lista</a>
+            <a class="nav-link" href="lista.php">Lista</a>
             </li>
             </ul>
-        </div>    
+        </div>
     </nav>
     <body>
         <?php
