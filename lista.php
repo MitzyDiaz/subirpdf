@@ -33,10 +33,10 @@
                     <td>Apellido Paterno</td>
                     <td>Apellido Materno</td>
                     <td>Boleta</td>
-                    <td>Titulo</td>
                     <td>Tamaño</td>
                     <td>Parcial</td>
-                    <td>Nombre del Archivo</td>
+                    <td>Titulo</td>
+                    <td>Archivo</td>
                 </tr>
             </thead>
             <?php
@@ -50,10 +50,10 @@
                     <td><?php echo $datos['ap']; ?></td>
                     <td><?php echo $datos['am']; ?></td>
                     <td><?php echo $datos['boleta']; ?></td>
-                    <td><?php echo $datos['titulo']; ?></td>
                     <td><?php echo $datos['tamano']; ?> kb</td>
                     <td><?php echo $datos['departamental']; ?></td>
-                    <td><a href="archivo.php?id=<?php echo $datos['id_tareas']?>" ><?php echo $datos['nombre_archivo']; ?> </a></td>
+                    <td><?php echo $datos['titulo']; ?></td>
+                    <td><a class="btn btn-primary" href="archivo.php?id=<?php echo $datos['id_tareas']?>">Ver</a></td>
                 </tr>
                     
             <?php  } ?>
@@ -68,7 +68,7 @@
             <script>
             $(document).ready(function() {
             $('#tab_tareas').DataTable({
-                "lengthMenu": [[10], [10]],
+                "lengthMenu": [[20], [20]],
                 "pagingType": "numbers",
                 "ordering": true,
                 autoFill: true,
