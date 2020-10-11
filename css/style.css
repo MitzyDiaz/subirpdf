@@ -1,0 +1,26 @@
+nav {
+    background: #900F1A;
+    color: #eeee !important;
+}
+
+nav a {
+    text-decoration: none;
+    color: #eeee !important;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #f08080 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #900F1A;
+    border-color: #900F1A;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #6d0a13;
+    border-color: #6d0a13;
+}
