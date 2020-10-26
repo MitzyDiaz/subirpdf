@@ -23,6 +23,9 @@ include_once 'config.inc.php';
             <li class="nav-item">
             <a class="nav-link" href="equipo.php">Equipo</a>
             </li>
+            <li class="nav-item">
+            <a class="nav-link" href="proyecto.php">Proyecto</a>
+            </li>
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="parciales.php" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -39,7 +42,6 @@ include_once 'config.inc.php';
     </nav>
     <!--OTRO NAVBAR-->
     <body style="background: #eee;">
-    <div class="container">
         <!--inicio de carrusel-->
         <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -66,9 +68,18 @@ include_once 'config.inc.php';
             <div style="margin-top: 14px; margin-bottom: 30px;">
                 <h4>AQUI VA INFORMACION DE TU PROYECTO</h4>
             </div>
-    </div>
+
+
+
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
+    <!-- Footer -->
+    <footer class="page-footer font-small" style="background: #dc3545; color: white;">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright: Todos los derechos reservados</div>
+    <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 </html>

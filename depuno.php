@@ -21,6 +21,9 @@
             <li class="nav-item">
             <a class="nav-link" href="equipo.php">Equipo</a>
             </li>
+            <li class="nav-item">
+            <a class="nav-link" href="proyecto.php">Proyecto</a>
+            </li>
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="parciales.php" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -99,4 +102,11 @@
 
             </script>
     </body>
+    <!-- Footer -->
+    <footer class="page-footer font-small" style="background: #dc3545; color: white;">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright: Todos los derechos reservados</div>
+    <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 </html>
